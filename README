@@ -1,0 +1,12 @@
+Collatz Conjecture
+~~~~~~~~~~~~~~~~~~
+
+if n is even:
+   n/2
+if n is odd:
+   3n+1
+if n == 1:
+   end
+
+Argument can either be an integer or 'r' for random number between 1-1000. collatz.py prints a list of all numbers and the time taken to calculate the results. The results are then plotted in a histogram using the matplotlib module.
+
